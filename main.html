@@ -9,14 +9,16 @@
 <body>
   <h1>Login Form</h1>
   <form onsubmit="return submission(event)">
+	  <label for="username"> Username </label>
     <input type="text" id="username" placeholder="Username">
   </br>
+	  <label for="password"> Password </label>
     <input type="password" id="password" placeholder="Password">
   </br>
     <label for="checkbox">Remember me</label>
     <input type="checkbox" id="checkbox">
   </br>
-    <button type="submit" id="submit">Submit</button>
+    <input type="submit" id="submit" value="Submit"></input>
   </form>
 
   <button id="existing" style="display: none;">Login as existing user</button>
