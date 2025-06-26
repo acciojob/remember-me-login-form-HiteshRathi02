@@ -7,8 +7,21 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+  <h1>Login Form</h1>
+  <form onsubmit="return submission(event)">
+    <input type="text" id="username" placeholder="Username">
+  </br>
+    <input type="password" id="password" placeholder="Password">
+  </br>
+    <label for="checkbox">Remember me</label>
+    <input type="checkbox" id="checkbox">
+  </br>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+
+  <button id="existing" style="display: none;">Login as existing user</button>
+
+    <script type="text/javascript" src="./index.js">
 </script>
 
 </body>
